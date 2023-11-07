@@ -4,34 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>Landing Page</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header-top">
-            <p class="header-logo">Header Logo</p>
-            <div class="header-links">
-                <a href="#">header link one</a>
-                <a href="#">header link two</a>
-                <a href="#">header link three</a>
+    <header>
+        <div class="navigation">
+            <div class="left">
+                <p class="logo">Header Logo</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="#">header link one</a>
+                    </li>
+                    <li>
+                        <a href="#">header link two</a>
+                    </li>
+                    <li>
+                        <a href="#">header link three</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="header-bottom">
-            <div class="site-description">
-                <h1 class="hero-main">This website is awesome</h1>
-                <p class="hero-secondary">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-                <button id="first">Sign up</button>
+        <div class="description">
+            <div class="left">
+                <h1 class="hero">This website is awesome</h1>
+                <p class="secondary">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+                </p>
+                <button class="secondary">Sign up</button>
             </div>
-            <div class="image-placeholder">
-                <p>this is a placeholder for an image</p>
+            <div class="right">
+                <div class="image">
+                    <p class="secondary">this is a placeholder for an image</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Some random informations</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="image"></div>
+                <p>this is some subtext under an illustration or image</p>
+
+            </div>
+            <div class="card">
+                <div class="image"></div>
+                <p>this is some subtext under an illustration or image</p>
+
+            </div>
+            <div class="card">
+                <div class="image"></div>
+                <p>this is some subtext under an illustration or image</p>
+
+            </div>
+        </div>
+    </main>
+    <div class="quote">
+        <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em>
+        <p>- Thor, God of Thunder</p>
+    </div>
+    <div class="signup">
+        <div class="container">
+            <div class="left">
+                <strong>Call to action! It's time!</strong>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="right">
+                <button class="secondary">Sign up</button>
             </div>
         </div>
     </div>
-    <div class="main">
-        <h1>Some random information.</h1>
-    </div>
-    <div class="footer">
-        <div>Footer</div>
-    </div>
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
